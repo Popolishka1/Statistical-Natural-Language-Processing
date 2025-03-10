@@ -19,7 +19,8 @@ conda create --name detect_gpt_gpu python=3.9 -y && \
 conda activate detect_gpt_gpu && \
 conda install -y numpy pandas tqdm matplotlib && \
 conda install -y -c conda-forge transformers sentencepiece && \
-conda install -y pytorch torchvision torchaudio -c pytorch -c nvidia
+conda install -y pytorch torchvision torchaudio -c pytorch -c nvidia && \
+conda install -y -c conda-forge sentencepiece
 ```
 
 ### 2️⃣ Running detection
@@ -33,7 +34,7 @@ Modify the models, parameters and datasets in the notebook `detectgpt_for_dummie
 - **Insert paper**
 
 ## 📚 Resources & references
-- **Project instrcutions**: [Internet](https://pontus.stenetorp.se/comp0087/)
+- **Project instructions**: [Internet](https://pontus.stenetorp.se/comp0087/)
 - **DetectGPT paper**: [ArXiv](https://arxiv.org/abs/2301.11305)
 - **Related work**:
 
