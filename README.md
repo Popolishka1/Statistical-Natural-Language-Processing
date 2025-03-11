@@ -40,5 +40,5 @@ Modify the models, parameters and datasets in the notebook `detectgpt_for_dummie
 
 ## 🤝 Contributors
 - Paul Bouyé
-- Hugo Hazzard
+- Hugo Hazard
 - Paul Hellegouarch
