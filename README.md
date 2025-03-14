@@ -17,10 +17,9 @@ To run DetectGPT on **GPU**, create the following environment and install depend
 ```sh
 conda create --name detect_gpt_gpu python=3.9 -y && \
 conda activate detect_gpt_gpu && \
-conda install -y numpy pandas tqdm matplotlib && \
-conda install -y -c conda-forge transformers sentencepiece && \
-conda install -y pytorch torchvision torchaudio -c pytorch -c nvidia && \
-conda install -y -c conda-forge sentencepiece
+conda install -y numpy pandas tqdm matplotlib ipython scikit-learn && \
+conda install -y -c conda-forge datasets transformers sentencepiece && \
+conda install -y -c pytorch -c nvidia pytorch torchvision torchaudio
 ```
 
 ### 2️⃣ Running detection
